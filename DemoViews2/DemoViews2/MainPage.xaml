@@ -1,7 +1,63 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:DemoViews2" x:Class="DemoViews2.MainPage">
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:DemoViews2" 
+             x:Class="DemoViews2.MainPage">
+    
     <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
-    </StackLayout>
+        <StackLayout Padding="20">
+        <TimePicker TextColor="Navy"
+                    x:Name="timPickInicial">
+                    </TimePicker>
+
+            <WebView x:Name="Browser"
+                     Source="https://university.xamarin.com/"
+                     WidthRequest="1000"
+                     HeightRequest="1000"
+                     Navigated="navegador"
+                     />  
+                 </StackLayout>
+        <TableView Intent="Form">
+            <TableView.Root Title="Test">
+                <TableSection Title="Datos Generales">
+                    <TextCell Text="Nombre" Detail="Solo Mayores de 18">
+                    </TextCell>
+                    <EntryCell Placeholder="Ingrese su nombre">
+                    </EntryCell>
+                </TableSection>
+            </TableView.Root>
+            <TableSection Title="Datos Particulares">
+                <EntryCell Placeholder="(57)-77-11"
+                           Label="Telefono"
+                           Keyboard="Telephone"
+                           >
+                </EntryCell>
+                <SwitchCell Text="Suscribirse"></SwitchCell>
+
+                <ViewCell>
+                    <ViewCell.View>
+                        <StackLayout>
+                            <BoxView Color="Fuchsia"></BoxView>
+                            <Label Text="NewsLetter"></Label>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Semanal"></Label>
+                                <Label Text="Mensual"></Label>
+                                <Label Text="Anual"></Label>
+                                
+                            </StackLayout>
+                            <Label Text="Elegir Color"></Label>
+                            <StackLayout>
+                                <BoxView Color="Lime"></BoxView>
+                                <BoxView Color="Maroon"></BoxView>
+                                <BoxView Color="Teal"></BoxView>
+                                <BoxView Color="Purple"></BoxView>
+                            </StackLayout>
+                            <BoxView Color="Fuchsia"/>
+                        </StackLayout>
+                    </ViewCell.View>
+                </ViewCell>
+            </TableSection>
+        </TableView>
+        </StackLayout>    
+       
 </ContentPage>

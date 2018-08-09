@@ -1,0 +1,9 @@
+/Users/vivelabtunja25/Desktop/DemoViews2/DemoViews2/DemoViews2/DemoViews2/obj/Debug/netstandard2.0/DemoViews2.csprojResolveAssemblyReference.cache
+/Users/vivelabtunja25/Desktop/DemoViews2/DemoViews2/DemoViews2/DemoViews2/obj/Debug/netstandard2.0/DemoViews2.csproj.CoreCompileInputs.cache
+/Users/vivelabtunja25/Desktop/DemoViews2/DemoViews2/DemoViews2/DemoViews2/obj/Debug/netstandard2.0/DemoViews2.AssemblyInfoInputs.cache
+/Users/vivelabtunja25/Desktop/DemoViews2/DemoViews2/DemoViews2/DemoViews2/obj/Debug/netstandard2.0/DemoViews2.AssemblyInfo.cs
+/Users/vivelabtunja25/Desktop/DemoViews2/DemoViews2/DemoViews2/DemoViews2/bin/Debug/netstandard2.0/DemoViews2.deps.json
+/Users/vivelabtunja25/Desktop/DemoViews2/DemoViews2/DemoViews2/DemoViews2/bin/Debug/netstandard2.0/DemoViews2.dll
+/Users/vivelabtunja25/Desktop/DemoViews2/DemoViews2/DemoViews2/DemoViews2/bin/Debug/netstandard2.0/DemoViews2.pdb
+/Users/vivelabtunja25/Desktop/DemoViews2/DemoViews2/DemoViews2/DemoViews2/obj/Debug/netstandard2.0/DemoViews2.dll
+/Users/vivelabtunja25/Desktop/DemoViews2/DemoViews2/DemoViews2/DemoViews2/obj/Debug/netstandard2.0/DemoViews2.pdb

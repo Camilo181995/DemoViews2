@@ -1,16 +1,18 @@
-﻿<Properties StartupConfiguration="{A6475AFC-17F3-496C-9D59-C6927C3B3C8E}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="DemoViews2/MainPage.xaml">
+﻿<Properties StartupConfiguration="{AA575A9B-2507-4BD6-AE62-83FB3C5F74B1}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DemoViews2/App.xaml.cs">
     <Files>
-      <File FileName="DemoViews2/MainPage.xaml" Line="7" Column="15" />
+      <File FileName="DemoViews2/CambiarColor.xaml" Line="4" Column="14" />
+      <File FileName="DemoViews2/CambiarColor.xaml.cs" Line="34" Column="1" />
+      <File FileName="DemoViews2/App.xaml" Line="5" Column="15" />
+      <File FileName="DemoViews2/App.xaml.cs" Line="14" Column="37" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.DemoViews2.iOS FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.DemoViews2.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.C4F70121-88EB-4717-A59B-BA6C53D252E6" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.DemoViews2 FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.DemoViews2.Android PreferredExecutionTarget="Android.adsi_21" FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.DemoViews2.Android PreferredExecutionTarget="Android.Nexus_5_API_23_x86" AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" />
 </Properties>

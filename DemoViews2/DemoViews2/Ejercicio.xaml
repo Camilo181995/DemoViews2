@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:DemoViews2"
+             x:Class="DemoViews2.Ejercicio">
+    <ContentPage.Content>
+         <TableView Intent="Form">
+            <TableView.Root Title="Test">
+                <TableSection Title="PRIMER SECCION">
+                    <TextCell Detail="Departamento"/>
+                        <EntryCell Placeholder="Ingrese Area"
+                           Label="Area">
+                        
+                </EntryCell>
+                     <SwitchCell Text="Provicional"/>
+                    <ViewCell>
+                        <ViewCell.View>
+                            <StackLayout Orientation="Horizontal">
+                                <Image 
+                                    Source="descarga.jpeg"
+                                    WidthRequest="50"
+                                    HeightRequest="50"
+                                    />
+                                <Label Text="Usuarios"
+                                       VerticalTextAlignment="Center"/>
+                                
+                            </StackLayout>
+                            
+                        </ViewCell.View>
+                    </ViewCell>
+                   </TableSection>
+                 <TableSection Title="SEGUNDA SECCION">
+                    <TextCell Detail="Profesion"/>
+                        <EntryCell Placeholder="Ingrese Especialidad"
+                           Label="Especialidad"/>
+                       
+                
+                     <SwitchCell Text="Graduado"/>
+                       <ViewCell>
+                        <ViewCell.View>
+                            <StackLayout Orientation="Horizontal">
+                                <Image 
+                                    Source="descarga2.png"
+                                    WidthRequest="50"
+                                    HeightRequest="50"
+                                    />
+                                <Label Text="Logo"
+                                       VerticalTextAlignment="Center"/>
+                                
+                            </StackLayout>
+                            
+                        </ViewCell.View>
+                    </ViewCell> 
+      
+                </TableSection>
+              </TableView.Root>
+        </TableView> 
+    </ContentPage.Content>
+        
+  
+</ContentPage>

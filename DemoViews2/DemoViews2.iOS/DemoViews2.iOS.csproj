@@ -156,4 +156,8 @@
       <Name>DemoViews2</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\descarga.jpeg" />
+    <BundleResource Include="Resources\descarga2.png" />
+  </ItemGroup>
 </Project>
